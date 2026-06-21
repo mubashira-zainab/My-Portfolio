@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Expertise</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="hero-section">
+        <div class="hero-container">
+            <img src="Images/profile.jpg" alt" Mubashira Zainab" class="profile-img">
+            <div class="hero-text">
+                <h1>Hi, I'm Mubashira</h1>
+                <p class="subtitle">Mathematics Student | Data Analyst | AI Automation | Graphic Designer</p>
+                <p class="description">
+                    Bridging the gap between complex mathematical theory, data-driven insights, and functional visual design. I build intelligent automation systems and turn raw data into actionable visual stories.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">Areas of Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-calculator"></i>
+                <h3>Mathematics</h3>
+                <p>Mathematical modeling, economic analysis, and quantitative problem-solving.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-chart-pie"></i>
+                <h3>Data Analysis & Excel</h3>
+                <p>Advanced data manipulation, dashboard creation, predictive modeling, and statistical analysis.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-robot"></i>
+                <h3>AI Automation</h3>
+                <p>Building autonomous agents, workflows, and machine learning integrations for efficiency.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Graphic Design</h3>
+                <p>Creating minimalist, high-impact visual identities, layout designs, and presentations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work-section">
+        <h2 class="section-title">Selected Work</h2>
+        
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="data">Data & Math</button>
+            <button class="filter-btn" data-filter="ai">AI & Automation</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="data">
+                <img src="Images/project1.jpg" alt="Data Analytics Project">
+                <div class="item-info">
+                    <h4>Mathematical Economics Dashboard</h4>
+                    <p>Excel & Data Analytics</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="ai">
+                <img src="Images/project2.jpg" alt="AI Automation Project">
+                <div class="item-info">
+                    <h4>Autonomous AI Agent Workflow</h4>
+                    <p>AI & Automation</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="design">
+                <img src="Images/project 3.jpg" alt="Graphic Design Project">
+                <div class="item-info">
+                    <h4>Brand Identity & Visual Assets</h4>
+                    <p>Graphic Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Let's Connect</h2>
+        <p>I am always open to discussing data projects, automation workflows, or design collaborations.</p>
+        
+        <div class="contact-links">
+            <a href="mailto:mubashirazainab2418@gmail.com" class="contact-icon">
+                <i class="fa-solid fa-envelope"></i> Email
+            </a>
+            <a href="https://www.linkedin.com/in/mubashira-zainab-a8a4a8354/" target="_blank" class="contact-icon">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Designed & Built by Mubashira Zainab</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
