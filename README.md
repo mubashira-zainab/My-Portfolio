@@ -40,7 +40,7 @@ An end-to-end data pipeline that turns raw and complex datasets into beautiful, 
 ### 🤖 Project 3: AI Automation Workflow
 A smart automation system built to optimize efficiency, connect applications, and eliminate manual work.
 
-![Project 3](project 3.jpg)
+![Project 3](project3.jpg)
 
 ---
 
